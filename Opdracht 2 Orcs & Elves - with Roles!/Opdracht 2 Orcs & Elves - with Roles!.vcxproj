@@ -134,7 +134,7 @@
     <ClCompile Include="Source\NPC.cpp" />
     <ClCompile Include="Source\Elf.cpp" />
     <ClCompile Include="Source\Orc.cpp" />
-    <ClCompile Include="Source\Opdracht 2 Orcs &amp; Elves - with Roles!.cpp" />
+    <ClCompile Include="Source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Shaman.h" />
