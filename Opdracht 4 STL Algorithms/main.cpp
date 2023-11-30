@@ -67,6 +67,7 @@ int main() {
         std::vector<double> numbers{10, 324422, 6, -23, 234.5, 654.1, 3.1242, -9.23, 635};
         // 2) voor alle elementen te bepalen of ze even of oneven zijn
 
+        std::cout << std::endl << "Even or uneven:" << std::endl;
         // One line heel mooi :3
         std::for_each(numbers.begin(), numbers.end(), [](const double& n) { std::cout << n << ' ' << ((bool)((int)n % 2 == 0) ? "True" : "False") << std::endl; });
     }
