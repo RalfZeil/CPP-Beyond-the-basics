@@ -69,7 +69,7 @@ int main() {
 
         std::cout << std::endl << "Even or uneven:" << std::endl;
         // One line heel mooi :3
-        std::for_each(numbers.begin(), numbers.end(), [](const double& n) { std::cout << n << ' ' << ((bool)((int)n % 2 == 0) ? "True" : "False") << std::endl; });
+        std::for_each(numbers.begin(), numbers.end(), [](const double& n) { std::cout << n << ' ' << ((bool)((int)n % 2 == 0) ? "Even" : "Oneven") << std::endl; });
     }
 
     {
