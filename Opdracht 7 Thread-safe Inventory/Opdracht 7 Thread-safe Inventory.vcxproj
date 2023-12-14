@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c204a044-8b3c-426f-a81e-245bd269823d}</ProjectGuid>
-    <RootNamespace>Opdracht5StrategiesforGameofLife</RootNamespace>
+    <ProjectGuid>{75b82b4e-2690-4966-84aa-e52728138a08}</ProjectGuid>
+    <RootNamespace>Opdracht7ThreadsafeInventory</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,18 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\RalfsDumbRules.cpp" />
-    <ClCompile Include="src\Highlife.cpp" />
-    <ClCompile Include="src\ConwaysGameOfLife.cpp" />
-    <ClCompile Include="src\Grid.cpp" />
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Opdracht 7 Thread-safe Inventory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\RalfsDumbRules.h" />
-    <ClInclude Include="src\Highlife.h" />
-    <ClInclude Include="src\ConwaysGameOfLife.h" />
-    <ClInclude Include="src\Grid.h" />
-    <ClInclude Include="src\Strategy.h" />
+    <ClInclude Include="Inventory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
